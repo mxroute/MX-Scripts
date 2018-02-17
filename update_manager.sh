@@ -1,5 +1,5 @@
 # Script to update manager theme on nodes
-git -C /usr/local/cpanel/base/frontend/manager reset --hard
-git -C /usr/local/cpanel/base/frontend/manager pull
-git -C /usr/local/cpanel/base/webmail/manager reset --hard
-git -C /usr/local/cpanel/base/webmail/manager pull
+/usr/local/cpanel/3rdparty/lib/path-bin/git -C /usr/local/cpanel/base/frontend/manager reset --hard
+/usr/local/cpanel/3rdparty/lib/path-bin/git -C /usr/local/cpanel/base/frontend/manager pull
+/usr/local/cpanel/3rdparty/lib/path-bin/git -C /usr/local/cpanel/base/webmail/manager reset --hard
+/usr/local/cpanel/3rdparty/lib/path-bin/git -C /usr/local/cpanel/base/webmail/manager pull
