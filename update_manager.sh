@@ -1,0 +1,1 @@
+# Script to update manager theme on nodes
