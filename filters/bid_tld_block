@@ -1,0 +1,6 @@
+if first_delivery
+and ("$h_to:, $h_cc:" contains ".bid")
+or ("$h_from:" contains ".bid")
+then
+seen finish
+endif

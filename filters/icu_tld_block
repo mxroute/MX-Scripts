@@ -1,0 +1,6 @@
+if first_delivery
+and ("$h_to:, $h_cc:" contains ".icu")
+or ("$h_from:" contains ".icu")
+then
+seen finish
+endif
